@@ -31,7 +31,7 @@ const Header = () => {
 
           <Navbar.Collapse id="responsive-navbar-nav">
             {/* All links on the right */}
-            <Nav className="ms-auto gap-4">
+            <Nav className="ms-auto gap-0 gap-md-4">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/service">Services</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
@@ -42,12 +42,10 @@ const Header = () => {
                 className="bg-dark"
               >
                 <NavDropdown.Item href="/pagesabout">About US</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/pageservice">
                   Our Services
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Contact US
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/contact">Contact US</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link href="/test">Testimonials</Nav.Link>
