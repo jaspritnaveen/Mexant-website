@@ -1,0 +1,12 @@
+.contact-sec {
+  background-image: url("../Assets/contactbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contact-img img {
+    width: 238px;
+  }
+}

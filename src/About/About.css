@@ -1,0 +1,9 @@
+.about-page p {
+  text-align: justify;
+  font-size: 12px;
+  line-height: 2.2;
+}
+
+.nav-tab {
+  background-color: red !important  ;
+}

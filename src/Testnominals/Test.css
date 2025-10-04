@@ -1,0 +1,17 @@
+.diamond-icon i {
+  font-size: 48px;
+}
+
+.test .carousel-control-next-icon,
+.test .carousel-control-prev-icon {
+  display: none;
+}
+
+.cards {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.test-left span:nth-child(1) {
+  font-size: 68px;
+}

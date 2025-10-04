@@ -1,0 +1,21 @@
+.logo-img img {
+  height: 48px !important;
+}
+
+.car-sec {
+  background-image: url("../Assets/homebg.png");
+}
+
+.nav-sec .dropdown-menu {
+  background-color: rgb(33 37 41) !important;
+}
+
+.nav-sec .dropdown-item {
+  color: #ffff !important;
+}
+
+.nav-sec .dropdown-item:hover {
+  background-color: rgb(33 37 41) !important;
+}
+
+

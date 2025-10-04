@@ -1,0 +1,46 @@
+.about-page-img {
+  height: 40vh;
+  background-image: url("../Assets/pagesabout.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.about-page-img h2 {
+  font-size: 50px !important;
+  color: white !important;
+}
+
+.about-page-img .line {
+  background-color: white;
+  height: 8px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.accordion-button {
+  color: green !important;
+  font-weight: bold;
+}
+
+.service-two {
+  background-image: url("../Assets/servicebg.png");
+  width: 100%;
+  padding: 60px 0px;
+}
+
+.parts .part-2 {
+  font-size: 48px;
+  color: green;
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .pagesabput-img {
+    width: 254px !important;
+    padding-bottom: 10px;
+  }
+
+  .about-page-img h2 {
+    font-size: 25px !important;
+  }
+}

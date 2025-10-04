@@ -1,0 +1,55 @@
+.home-hr hr {
+  width: 80px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+  opacity: 1;
+  visibility: visible;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 20%;
+  bottom: 50%;
+}
+
+.contents h3 span {
+  color: #ff511a;
+}
+
+.contents h3{
+  font-weight: 800;
+  font-size: 48px;
+  text-align: left;
+}
+
+.contents p {
+  left: 0;
+  text-align: justify;
+  width: 620px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .contents h3 {
+    font-size: 12px;
+    top: -60px;
+    position: absolute;
+  }
+
+  .home-hr hr {
+    display: none;
+  }
+
+  .contents p {
+    position: absolute;
+    top: -20px;
+    font-size: 8px;
+    width: 210px;
+  }
+
+  .btn-home Button {
+    display: none;
+  }
+}
