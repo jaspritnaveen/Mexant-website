@@ -1,17 +1,71 @@
-.diamond-icon i {
-  font-size: 48px;
+.testimonial-section {
+  background: #fff;
+  border-radius: 20px;
 }
 
-.test .carousel-control-next-icon,
-.test .carousel-control-prev-icon {
-  display: none;
+.testimonial-carousel {
+  max-width: 950px;
+  margin: 0 auto;
 }
 
-.cards {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+.testimonial-card {
+  background: #ffffff;
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 10px 40px -10px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 30px;
 }
 
-.test-left span:nth-child(1) {
-  font-size: 68px;
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 35px -5px;
+}
+
+.quote-icon {
+  font-size: 45px;
+  color: #28a745; /* Green but feel free to match your site’s accent color */
+  background: #e9f8ec;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.testimonial-text {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.testimonial-img {
+  width: 100%;
+  max-width: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Carousel Indicators (dots) */
+.carousel-indicators [data-bs-target] {
+  background-color: #ff4500; /* keep red tone similar to text-danger */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .testimonial-card {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .testimonial-img {
+    margin-top: 20px;
+  }
 }
