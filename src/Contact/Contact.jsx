@@ -63,12 +63,22 @@ const Contact = () => {
               </Row>
 
               <Row className="mb-3">
-                <Form.Group as={Col} xs={12} controlId="validationCustom03">
+                <Form.Group
+                  className="mb-3"
+                  as={Col}
+                  xs={12}
+                  controlId="validationCustom03"
+                >
                   <Form.Label className="text-light">City</Form.Label>
                   <Form.Control type="text" placeholder="City" required />
                 </Form.Group>
 
-                <Form.Group as={Col} xs={12} controlId="validationCustom05">
+                <Form.Group
+                  className="mb-3"
+                  as={Col}
+                  xs={12}
+                  controlId="validationCustom05"
+                >
                   <Form.Label className="text-light">Zip</Form.Label>
                   <Form.Control type="text" placeholder="Zip" required />
                 </Form.Group>
