@@ -108,7 +108,7 @@ const Pageservice = () => {
           </div>
 
           <Tab.Container defaultActiveKey="home">
-          
+            <Nav variant="pills">
               <Nav.Item>
                 <Nav.Link eventKey="home">Home</Nav.Link>
               </Nav.Item>
