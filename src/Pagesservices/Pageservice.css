@@ -21,14 +21,14 @@
 }
 
 .service-details {
-  padding: 10px;
+  padding: 5zzpx;
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .service-left img {
     width: 288px;
   }
-  .crypto img {
+  .crypto img{
     width: 300px;
   }
 }
