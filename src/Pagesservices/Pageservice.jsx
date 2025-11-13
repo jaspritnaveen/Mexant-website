@@ -56,7 +56,7 @@ const Pageservice = () => {
                     <p>
                       You will see a bunch of free CSS templates when you search
                       on Google. TemplateMo is the best one because it is 100%
-                      free for anyone We do not ask you anything in return. You
+                      free for anyone. We do not ask you anything in return. You
                       are free to use our templates for any purpose.
                     </p>
                   </div>
